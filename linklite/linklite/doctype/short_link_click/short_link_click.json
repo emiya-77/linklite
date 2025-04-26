@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-26 17:43:35.265707",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ip",
+  "user_agent",
+  "link",
+  "column_break_dxmb",
+  "referrer",
+  "utm",
+  "section_break_arse",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_arse",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Short Link Click",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "ip",
+   "fieldtype": "Data",
+   "label": "IP"
+  },
+  {
+   "fieldname": "user_agent",
+   "fieldtype": "Data",
+   "label": "User Agent"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Link",
+   "options": "Short Link",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dxmb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "referrer",
+   "fieldtype": "Data",
+   "label": "Referer"
+  },
+  {
+   "fieldname": "utm",
+   "fieldtype": "Data",
+   "label": "UTM"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-26 18:09:40.753413",
+ "modified_by": "Administrator",
+ "module": "LinkLite",
+ "name": "Short Link Click",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
