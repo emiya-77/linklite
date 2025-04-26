@@ -5,6 +5,9 @@ app_description = "Streamline your links with LinkLite - where long URLs become 
 app_email = "golam.kibria1205@gmail.com"
 app_license = "mit"
 
+
+website_path_resolver = "linklite.utils.path_resolver"
+
 # Apps
 # ------------------
 
